@@ -20,6 +20,7 @@ function App() {
   if (isLoading) return <div>Loading...</div>;
   return (
     <>
+      <h1>LetsWatch</h1>
       <LoginButton />
       <LogoutButton />
       <Demonstration />
